@@ -1,0 +1,642 @@
+{
+  "horse_data": [
+    {
+      "id": 1,
+      "name": "SAVABEEL X LET IT ROCK",
+      "breed": "Premium Thoroughbred",
+      "age": "2 Year Old Filly",
+      "sharePrice": "$9,850",
+      "sharePercentage": "2.5%",
+      "sold": false,
+      "description": [
+        "There is no other way to describe Savabeel than superstar! The W.S Cox Plate hero is the mighty Zabeel's best sire son; earning multiple Championship titles with his 149 stakes winners and 35 Gr.1 winners.",
+        "And what an influence Danehill's dual Gr.1 winning son Fastnet Rock is. Australia's current leading broodmare sire, his daughters have done a superlative job producing 144 stakes winners, 16 of whom have been successful at the elite level."
+      ],
+      "detailDescription": [
+        "There is no other way to describe **Savabeel** than superstar! The W.S Cox Plate hero is the mighty **Zabeel**'s best sire son; earning multiple Championship titles with his 149 stakes winners and 35 Gr.1 winners.",
+        "And what an influence **Danehill'**s dual Gr.1 winning son **Fastnet Rock** is. Australia's current leading broodmare sire, his daughters have done a superlative job producing 144 stakes winners, 16 of whom have been successful at the elite level.",
+        "Fourteen of **Savabeel's** 17 runners out of **Fastnet Rock** mares are winners, with three of those being stakes winners and another five metropolitan winners.",
+        "This filly has family on her side too, her dam being a half-sister to the Gr.1 fillies **Absolutely** (AJC Oaks) and **Abbey Marie** (Australasian Oaks), and to the Gr.3 Geelong Cup winner Runaway, as well as to the dam of the Gr.2 winners **Mount Pleasant** and **Quantum Mechanic**.",
+        "**Let it Rock's** two-year-old **Let It Beel** is showing nice potential; close up at his first two starts for the Peter Moody & Katherine Coleman stable.",
+        "This filly had the walk and looks to match her supreme pedigree and we were simply not leaving the sale without her!"
+      ],
+      "image": "/galleryOverhorse/h1.jpg",
+      "url": "https://www.youtube.com/embed/dnTn0adFr4A?si=26c7kuqrXW1nGT8V",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 2,
+      "name": "TORONADO X WONDERFUL WORLD",
+      "breed": "Premium Thoroughbred",
+      "age": "2 Year Old Filly",
+      "sharePrice": "$9,850",
+      "sharePercentage": "2.5%",
+      "description": [
+        "Barely a week goes by without a city winner by the oh so reliable Toronado, the dual Gr.1 winning High Chaparral horse who has done a great job with his 43 stakes winners inclusive of six Gr.1 winners, his success seeing his service fee increase from $22,000 to its current $88,000.",
+        "The progeny of imported stakes winners are always in demand and the Listed winning Wonderful World (by the Epsom Derby winning Galileo horse Ruler Of The World) is out of a Listed winner who has also produced a Gr.2 winner."
+      ],
+      "detailDescription": [
+        "Barely a week goes by without a city winner by the oh so reliable **Toronado**, the dual Gr.1 winning **High Chaparral** horse who has done a great job with his 43 stakes winners inclusive of six Gr.1 winners, his success seeing his service fee increase from $22,000 to its current $88,000.",
+        "The progeny of imported stakes winners are always in demand and the Listed winning **Wonderful World** (by the Epsom Derby winning **Galileo** horse **Ruler Of The World**) is out of a Listed winner who has also produced a Gr.2 winner.",
+        "This is a lovely northern hemisphere family, one which has also been represent by the Gr.1 gallopers **Labeeb** and **Spininning Queen**",
+        "This filly has an exciting pedigree with duplications of the outstanding stallions **Sadler's Wells, Gone West, Northern Dancer, Mr Prospector, Buckpasser, Raise A Native** and **Secretariat**, supported by crosses of the prolific mares **Special** and **Plum Cake**."
+      ],
+      "image": "/galleryOverhorse/h2.jpg",
+      "url": "https://www.youtube.com/embed/dnTn0adFr4A?si=ceOBXBV6XY2gy6Qm",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "sold": false,
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 3,
+      "name": "ALL THE RACE",
+      "breed": "Hellbent x Raging Queen",
+      "age": "2 Year Old Colt",
+      "sharePrice": "$150,000.00",
+      "sharePercentage": "100%",
+      "sold": true,
+      "description": [
+        "The Gr.1 sprinter Hellbent is one of the Champion Sire I Am Invincible's best sons and is doing a fine job at stud with seven stakes winners from his first few crops and a very good 66.6% overall strike rate.",
+        "Bred on the same Hellbent/Sadler's Wells cross as the dual Gr.1 winner Magic Time, this colt is a full brother to the last start winner Duchess Of Sussex out of a stakes placed city winning daughter of the stakes placed Royal Bender."
+      ],
+      "detailDescription": [
+        "The Gr.1 sprinter **Hellbent** is one of the Champion Sire **I Am Invincible's** best sons and is doing a fine job at stud with seven stakes winners from his first few crops and a very good 66.6% overall strike rate.",
+        "Bred on the same **Hellbent/Sadler's** Wells cross as the dual Gr.1 winner **Magic Time**, this colt is a full brother to the last start winner Duchess Of Sussex out of a stakes placed city winning daughter of the stakes placed Royal Bender.",
+        "Stakes winners **Nullabor** and **El Padrino** hail from this family which is known for its speed and reliability, noting that **Raging Queen** is an honest example as she was out of the first five only twice during her career."
+      ],
+      "image": "/galleryOverhorse/h3.webp",
+      "url": "https://www.youtube.com/embed/bBtzAjHHoeo?si=6klp2BocAr4EgOQa",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 4,
+      "name": "FROSTED X ROCK DOVE",
+      "breed": "Frosted (USA) x Rock Dove",
+      "age": "2 Year Old Colt",
+      "sharePrice": "$135,000.00",
+      "sold": true,
+      "sharePercentage": "100%",
+      "description": [
+        "Stakes winning mares make the best broodmares and Rock Dove, a Listed winner and twice stakes placed, has made an encouraging start to her stud career with her first foal Saxon Spot winning his second start for Godolphin and James Cummings.",
+        "The multiple Gr.1 winner Frosted is one of the great Tapit's finest sons and has produced 34 stakes winners including the high-class local Bustling and the ever-consistent metro performer Ice Pick Nick."
+      ],
+      "detailDescription": [
+        "Stakes winning mares make the best broodmares and **Rock Dove**, a Listed winner and twice stakes placed, has made an encouraging start to her stud career with her first foal **Saxon Spot** winning his second start for Godolphin and James Cummings.",
+        "The multiple Gr.1 winner **Frosted** is one of the great **Tapit's** finest sons and has produced 34 stakes winners including the high-class local **Bustling** and the ever-consistent metro performer **Ice Pick Nick**.",
+        "This is a lovely family with **Rock Dove** being one of three stakes winners produced by the city winning **Dubawi** mare **Pouter**, also dam of the dual Gr.3 winner **Kiwi Skyhawk** and the Listed winner **King Land** who is also a winner in Hong Kong.",
+        "**Kiwi Skyhawk** looks to have plenty more to offer, being an exciting three-year-old whose latest stakes success came at his most recent outing in April."
+      ],
+      "image": "/galleryOverhorse/h4.webp",
+      "url": "https://www.youtube.com/embed/hNLLm-jhCLE?si=gxdQOj5OeLjC37Yh",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 5,
+      "name": "SNITZEL X SULTRY DREAMER",
+      "breed": "Snitzel x Sultry Dreamer",
+      "age": "2 Year Old Colt",
+      "sharePrice": "$240,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "By renowned sire Snitzel, 4-time Champion Sire of Australia and 4-time Champion Sire of 2YOs, Snitzel boasts a truly impressive record, siring 12 individual Champions, 24 Group 1 winners, 60 2YO stakes winners, and 16 stakes-siring sons. His progeny have won at all distances and continues to produce Group 1 champions across the spectrum.",
+        "This magnificent colt is the fourth foal out of Sultry Dreamer, Yes Yes Yes — now a commercial stallion."
+      ],
+      "detailDescription": [
+        "By renowned sire **Snitzel**, 4-time Champion Sire of Australia and 4-time Champion Sire of 2YOs, **Snitzel** boasts a truly impressive record, siring 12 individual Champions, 24 Group 1 winners, 60 2YO stakes winners, and 16 stakes-siring sons. His progeny have won at all distances and continues to produce Group 1 champions across the spectrum.",
+        "This magnificent colt is the fourth foal out of Sultry Dreamer, a half-sister to dual Group 1-winning mare **In Her Time**. He hails from a deep black-type pedigree featuring 9 individual stakes performers, including **Hot As Hell, Flaming Hot, Craig’s Dragon, Harlem River**, and the 2019 Champion 3YO & Everest winner, **Yes Yes Yes** — now a commercial stallion.",
+        "Bred and prepared by Arrowfield Stud, one of Australia's premier breeding operations, this colt boasts exceptional conformation and a stallion's pedigree.",
+        "We rated him as the best colt in the sale – offering a rare opportunity to invest in an elite prospect by Snitzel."
+      ],
+      "image": "/galleryOverhorse/h5.jpg",
+      "url": "https://www.youtube.com/embed/WtNTttFxWYY?si=qwpB68QCTr8G9w6I",
+      "location": {
+        "lot": "demo data",
+        "venue": "demo data"
+      },
+      "sold": false,
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+
+    {
+      "id": 6,
+      "name": "JEDI DREAM",
+      "breed": "Cosmic Force x Reeh",
+      "age": "2 Year Old Filly",
+      "sharePrice": "$130,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "The fast and talented Cosmic Force, a dual Group winning son of the outstanding stallion Deep Field, is into only his second season at stud and has three debut crop stakes winners placing him alongside Alabama Express and Zousain and behind only Too Darn Hot and Castelvecchio on the leading second season sire by stakes winners chart.",
+        "This filly's dam Reeh by the Golden Slipper winning high class stallion Sebring Order Of The Sun, Excitable Boy."
+      ],
+      "detailDescription": [
+        "The fast and talented **Cosmic Force**, a dual Group winning son of the outstanding stallion **Deep Field**, is into only his second season at stud and has three debut crop stakes winners placing him alongside Alabama Express and Zousain and behind only Too Darn Hot and Castelvecchio on the leading second season sire by stakes winners chart.",
+        "This filly's dam **Reeh** by the Golden Slipper winning high class stallion **Sebring** (already dam sire of 12 stakes winners) was a $360,000 yearling. She is out of a **Redoute's Choice** daughter of the terrific broodmare Sequin, dam of the stakes winners **Order Of The Sun, Beauty and Get To Work** - and grandam of the stakes winners **Summer Passage** (Gr.1 Ellerslie Sires Produce Stakes), **All That Pizzazz and Excitable Boy**.",
+        "This filly boasts duplications of the wonderful mares **Rolls, Natalma, Far Vista** and **Baby Doll** within seven generations, demonstrating outstanding female strength."
+      ],
+      "sold": false,
+      "image": "/galleryOverhorse/h6.jpg",
+      "url": "https://www.youtube.com/embed/thzbEY8qAe0?si=QI8gXSt5gzDs8ONX",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 7,
+      "name": "KILKENNY KING",
+      "breed": "Thoroughbred (colt)",
+      "age": "2 Year Old Rig",
+      "sharePrice": "$60,000.00",
+      "sold": true,
+      "sharePercentage": "100%",
+      "description": [
+        "Golden Slipper winners make great stallions and what a start Farnan has made to his stud career with three stakes winners amongst his first ten winners. They have really hit the ground running and he is currently Australia's third leading first season sire.",
+        "Bred the same Not A Single Doubt/More Than Ready cross as the Melbourne Cup hero Knight's Choice, the Blue Diamond winner Miracles Of Life and nine other stakes winners. This colt is out of a city winning daughter of the speedy stakes winning Catbird Burgels."
+      ],
+      "detailDescription": [
+        "Golden Slipper winners make great stallions and what a start **Farnan** has made to his stud career with three stakes winners amongst his first ten winners. They have really hit the ground running and he is currently Australia's third leading first season sire.",
+        "Bred the same **Not A Single Doubt/More Than Ready** cross as the Melbourne Cup hero Knight's Choice, the Blue Diamond winner **Miracles Of Life** and nine other stakes winners. This colt is out of a city winning daughter of the speedy stakes winning **Catbird Burgels**.",
+        "**Catbird** also won the Golden Slipper, as did Stratum who hails from the immediate family of this colt – and who is from the same prolific Redoute's Choice sire line.",
+        "Pedigree with a lovely balance of male and female strength with duplications of the high class stallions **Danehill, Mr Prospector, Halo, Vain, Northern Dancer** and **Palace Music** supported by crosses of the influential mares Natalina, Almahmoud and **Flaming Page**."
+      ],
+      "image": "/galleryOverhorse/h7.webp",
+      "url": "https://www.youtube.com/embed/AN5pEVogSnM?si=-Wop3X4BF7c88-Fe",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+
+    {
+      "id": 8,
+      "name": "D'ARGENTO X THE BANANA STAND ",
+      "breed": "Thoroughbred (colt)",
+      "age": "2 Year Old Colt",
+      "sharePrice": "$50,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "One of the 11 Gr1 winners sired by the superstar So You Think, the popular grey D'Argento was seen at his best taking out the Gr1 Rosehill Guineas; a Classic contest also taken out by the likes of Castelvecchio, The Autumn Sun and Dundeel... no doubt it is a stallion's race!",
+        "Things are looking good for D'Argento with his first stakes winner Statuario being one of the most exciting middle distance three-year-olds in the country."
+      ],
+      "detailDescription": [
+        "One of the 11 Gr1 winners sired by the superstar **So You Think**, the popular grey **D'Argento** was seen at his best taking out the Gr1 Rosehill Guineas; a Classic contest also taken out by the likes of **Castelvecchio, The Autumn Sun** and **Dundeel**... no doubt it is a stallion's race!",
+        "Things are looking good for **D'Argento** with his first stakes winner **Statuario** being one of the most exciting middle distance three-year-olds in the country.",
+        "Boasting a cross of the legendary **Sadler's Wells**, this colt is also line-bred to the famed matriarchs **Special, Flaming Page** and **Natalma**.",
+        "And he hails from an excellent family with his stakes winning grandam **Tawny Run** (dam of the Gr.3 galloper **Karalino**) being a granddaughter of the Gr.3 mare **Tessuti** whose dual Gr.3 winning half-sister **Zephyr Souba** produced the outstanding gallopers **Naturalism** (three Gr.1 wins and an oh so brave second in the Japan Cup) and **Crystal Palace** (Gr.1 Queensland Oaks).",
+        "His dam is by the W.S Cox Plate hero **Savabeel**, not only a Champion Sire many times over but a terrific broodmare sire influence with his daughters producing 35 stakes winners including seven Gr.1 horses."
+      ],
+      "image": "/galleryOverhorse/h8.jpg",
+      "url": "https://www.youtube.com/embed/CacQpHtAh2g?si=yHydNIGjcRnTLd0S",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "sold": false,
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 9,
+      "name": "KEGS AND LEGS",
+      "breed": "Thoroughbred Colt",
+      "age": "2 Year Old Colt (Westspeed Platinum)",
+      "sharePrice": "$15,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "He has never served big books but A Lot has been a nice quiet achiever with two stakes winners, another four stakes performers and 11 metropolitan winners amongst his first 39 winners from just 70 starters.",
+        "This colt is out of a winning daughter of the stakes placed Claudia Jean who bolted in with her two-year-old debut down the famed Flemington straight... and just her second start she was only a couple of lengths away in the Magic Millions 2YO Classic."
+      ],
+      "detailDescription": [
+        "He has never served big books but A Lot has been a nice quiet achiever with two stakes winners, another four stakes performers and 11 metropolitan winners amongst his first 39 winners from just 70 starters.",
+        "This colt is out of a winning daughter of the stakes placed **Claudia Jean** who bolted in with her two-year-old debut down the famed Flemington straight... and just her second start she was only a couple of lengths away in the Magic Millions 2YO Classic.",
+        "All five of **Claudia Jean's** runners are winners and her Gr.2 placed dam **Milzeel**, daughter of the mighty **Zabeel**, also boasts a perfect record at stud with five winners from as many runners. And her dam is the triple Gr.1 winner **Miltak**.",
+        "This colt is a value purchase and will be part of the Westspeed Platinum Bonus Scheme!"
+      ],
+      "image": "/galleryOverhorse/h9.jpg",
+      "url": "https://player.vimeo.com/video/1052685674?h=d189375e48",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "sold": false,
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 10,
+      "name": "ROGUE RULER",
+      "breed": "Thoroughbred Colt",
+      "age": "2 Year Old Colt (Westspeed Platinum)",
+      "sharePrice": "$70,000.00",
+      "sharePercentage": "100%",
+      "sold": true,
+      "description": [
+        "Doing a great job winning half of his 12 starts - four of those at stakes level - Universal Ruler is doing so nicely at stud with his 12 stakes winners including our very own stable superstar Aztec Ruler, he has eight stakes placegetters and his 82 metropolitan winners.",
+        "This colt is a son of the four-time stakes placed Elegant Blast whose sire, the late great Blackfriars, is faring so well as a broodmare sire with 14 stakes winners."
+      ],
+      "detailDescription": [
+        "Doing a great job winning half of his 12 starts - four of those at stakes level - Universal Ruler is doing so nicely at stud with his 12 stakes winners including our very own stable superstar **Aztec Ruler**, he has eight stakes placegetters and his 82 metropolitan winners.",
+        "This colt is a son of the four-time stakes placed **Elegant Blast** whose sire, the late great **Blackfriars**, is faring so well as a broodmare sire with 14 stakes winners.",
+        "A half-sister to the Listed winner **Red Blast** (by this colt’s sire **Universal Ruler**), Elegant Blast is out of the stakes placed **Daughter’s Charm** - also dam of the globe-trotting multiple Gr.1 winning sprinter **Scenic Blast** (who did such a good job locally and at Royal Ascot) and the WA Horse Of The Year **Gilded Venom** who sadly died before reaching his peak.",
+        "This colt, whose full sister **Elegant Rose** ran very nicely at her recent debut, is a descendant of the prolific matriarch Sweet Rose as are 20 Gr.1 winners including **Lonhro, Lankan Rupee, Grosvenor, Tavago**, and **Empire Rose**... one of Australasia’s finest families.",
+        "This Colt is also part of the Westspeed Platinum Bonus Scheme!"
+      ],
+      "image": "/galleryOverhorse/h10.webp",
+      "url": "https://player.vimeo.com/video/1050488352?h=d2f91bbab4",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 11,
+      "name": "MANHATTAN RAIN X LIBERTY ISLE",
+      "breed": "Thoroughbred",
+      "age": "2 Year Old Colt (Westspeed Platinum)",
+      "sharePrice": "$55,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "The legally bred and very talented Manhattan Rain - a Gr.1 winning half-brother to superstar stallion Redoute's Choice - Whisky Baron, and Benagil (recent Australasian Oaks).",
+        "There's a lot to be said for buying into the progeny of a winners."
+      ],
+      "detailDescription": [
+        "The legally bred and very talented **Manhattan Rain** - a Gr.1 winning half-brother to superstar stallion **Redoute's Choice** - is a proven high-class stallion, represented by 20 stakes winners including Gr.1 gallopers **She Will Reign** (Golden Slipper), **Whisky Baron, and Benagil** (recent Australasian Oaks).",
+        "There's a lot to be said for buying into the progeny of a proven broodmare, and the lightly raced **Liberty Isle**, who showed plenty of natural ability during a short career, is just that - five of her six foals to race being winners.",
+        "And not just maiden winners either, with metropolitan class gallopers **Watto's Fury, Kakadu, Tajmali**, and **Champagne Diva** between them winning 24 races. They really know how to find the line!",
+        "**Liberty Isle**, who at just her second start won her maiden in Victoria by 4 1/2 lengths, is one of seven winners produced by the dual city winner **Blue Gum Girl**, dam of the stakes winner Personal Ensign; in turn, dam of the dual Group winner **Fontiton**, whose son **Generation** is also a two-time Group winner.",
+        "This colt is also part of the Westspeed Platinum Bonus Scheme."
+      ],
+      "image": "/galleryOverhorse/h11.jpg",
+      "url": "https://player.vimeo.com/video/1050488352?h=d2f91bbab4",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "sold": false,
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 12,
+      "name": "AWESOME ROCK X DOUBLE THE MAGIC",
+      "breed": "Thoroughbred",
+      "age": "2 Year Old Colt (Westspeed Platinum)",
+      "sharePrice": "$55,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "Only very good horses win the Gr.1 Mackinnon Stakes and Awesome Rock sure had plenty of talent - also easily winning the Gr.2 Feehan Stakes and running well in one of the W.S Cox Plates won by the mighty Winx!",
+        "A son of Champion Sire Fastnet Rock, Awesome Rock is proving to be a reliable and classy stallion with six stakes winners, five stakes placegetters, and 24 metropolitan winners amongst his first 63 winners... Impressive stats!"
+      ],
+      "detailDescription": [
+        "Only very good horses win the Gr.1 Mackinnon Stakes and **Awesome Rock** sure had plenty of talent - also easily winning the Gr.2 Feehan Stakes and running well in one of the W.S Cox Plates won by the mighty Winx!",
+        "A son of Champion Sire **Fastnet Rock, Awesome Rock** is proving to be a reliable and classy stallion with six stakes winners, five stakes placegetters, and 24 metropolitan winners amongst his first 63 winners... Impressive stats!",
+        "Boasting multiple strains of the acclaimed matriarch Somethingroyal via her famed sons **Secretariat** and **Sir Gaylord**, this colt is out of a city-winning half-sister to the stakes-placed **Meshmaker**.",
+        "His third dam is the Gr.1 VRC Oaks and Gr.1 1000 Guineas winner **Arborea**, who is proving to be quite the matriarch with the stakes winners **Delta Form, Szumul, Tal Tal Tess, High Seas Beauty, Drumbeats, Mondorani**, and **Steep Trap** amongst her descendants.",
+        "This colt is also part of the Westspeed Platinum bonus scheme!"
+      ],
+      "image": "/galleryOverhorse/h12.jpg",
+      "url": "https://www.youtube.com/embed/i9pE4qv5ZoI?si=s_szNGCMsUYaJBGa",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "sold": false,
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 13,
+      "name": "SATONO ALADDIN X SORORIA",
+      "breed": "Thoroughbred",
+      "age": "2 Year Old Filly",
+      "sharePrice": "$55,000.00",
+      "sharePercentage": "%",
+      "description": [
+        "A Rare opportunity to be involved with one of New Zealand’s most promising stallions right here in Western Australia!",
+        "Winner of the Gr.1 Yasuda Kinen, one of Japan’s most prestigious prizes, Satono Aladdin is one of the legendary stallion Deep Impact’s 200 stakes winners and 58 Gr.1 winners, and he is proving to be an outstanding representative of this prolific Sunday Silence sire line."
+      ],
+      "detailDescription": [
+        "A Rare opportunity to be involved with one of New Zealand’s most promising stallions right here in Western Australia!",
+        "Winner of the Gr.1 **Yasuda Kinen**, one of Japan’s most prestigious prizes, Satono Aladdin is one of the legendary stallion **Deep Impact’s** 200 stakes winners and 58 Gr.1 winners, and he is proving to be an outstanding representative of this prolific **Sunday Silence** sire line.",
+        "He is a horse who fares especially well in this part of the world with his first 11 stakes winners (and there are many more to come), all bred in New Zealand with an ultra impressive stakes winner to runner ratio of 12.2%.",
+        "This classy filly, daughter of a proven broodmare from a high achieving family, is an exciting prospect. Her three-time winning dam **Sororia** (whose sire **Iffraaj** is an influential broodmare sire of 44 stakes winners including the champion mare **Melody Belle**) has been well represented by three winners (of ten races) amongst her first four runners, and her $240,000 2YO will be one to follow.",
+        "Hailing from the same branch of the prolific **Miss Kate** (ancestress of the mighty Phar Lap) family as the Gr.1 winners **Eileen Dubh, Culminate, Captivate, Solveig, Cross Swords, Savaria**, and **Soliloquy** (his fifth dam), this colt boasts a cross of the proven high-class line-breeding subject **Flaming Page**, the Canadian Oaks winning dam of Nijinsky and grandam of The Minstrel; 3/4 brothers who have combined (within five generations alone) in the pedigrees of 486 stakes winners including 56 Gr.1 horses."
+      ],
+      "image": "/galleryOverhorse/h13.jpg",
+      "url": "https://www.youtube.com/embed/6MmLeNlyfWE?si=IC0YfMP9yv7bmQVU",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "sold": false,
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 14,
+      "name": "DOUBTLAND X QUENYA",
+      "breed": "Thoroughbred",
+      "age": "2 Year Old Filly",
+      "sharePrice": "$55,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "Like the great success story that is Extreme Choice, Doubtland is a fast son of Not A Single Doubt and the dual Group winner has made a most encouraging start to his stud career with four winners amongst his first runners.",
+        "This filly is out of the well-related mare Quenya, daughter of the city winner Marauding mare Eldarin, who also produced the Gr.3 winners Chetwood and Mearas as well as the dam of the Gr.3 winner Laburnum."
+      ],
+      "detailDescription": [
+        "Like the great success story that is **Extreme Choice, Doubtland** is a fast son of **Not A Single Doubt** and the dual Group winner has made a most encouraging start to his stud career with four winners amongst his first runners.",
+        "This filly is out of the well-related mare **Quenya**, daughter of the city winner **Marauding** mare **Eldarin**, who also produced the Gr.3 winners **Chetwood** and **Mearas** as well as the dam of the Gr.3 winner **Laburnum**.",
+        "What an absolutely fantastic family this is - this filly able to boast amongst her relations the big race winners **Anamoe, Anamato, Drum, Yourdeel, Dealer Principal**, and **Grand Armee**.",
+        "And what a lovely pedigree she has with her crosses of the terrific mares **Jesmond Lass, Flower Bowl**, and **Natalma**."
+      ],
+      "image": "/galleryOverhorse/h14.jpg",
+      "url": "https://www.youtube.com/embed/6o7-gqj27Dw?si=515eTgNDBV5ZeLnQ",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "sold": false,
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    },
+    {
+      "id": 15,
+      "name": "PINATUBO X HARANNDA",
+      "breed": "Thoroughbred",
+      "age": "2 Year Old Colt",
+      "sold": true,
+      "sharePrice": "$55,000.00",
+      "sharePercentage": "100%",
+      "description": [
+        "The European Champion 2YO Colt, Pinatubo, starred on the track with his seven wins - including three at Gr.1 level from just ten starts - and now the imposing bay is doing the job at stud with three stakes winners from his debut crop.",
+        "Currently sitting second in the UK Second Season Sire chart, Pinatubo is attracting plenty of attention down under with his first yearlings selling for up to $700,000."
+      ],
+      "detailDescription": [
+        "The European Champion 2YO Colt, **Pinatubo**, starred on the track with his seven wins - including three at Gr.1 level from just ten starts - and now the imposing bay is doing the job at stud with three stakes winners from his debut crop.",
+        "Currently sitting second in the UK Second Season Sire chart, **Pinatubo** is attracting plenty of attention down under with his first yearlings selling for up to $700,000.",
+        "This fellow is the first foal for an imported winning daughter of the great stallion **Invincible Spirit** (dam sire of 62 stakes winners including seven Gr.1 horses) and the Gr.3 winner **Harasiya**, whose grandson **Big Rock** earned the titles of European, French, and GB Champion 3YO.",
+        "**Harasiya** is the daughter of another high-class race and broodmare in **Hazariya**, Gr.3 winning dam of four stakes winners including the Epsom & Irish Derby hero Harzand.",
+        "This colt boasts an exciting cross of **Eljazzi** - the fourth dam of **Pinatubo** and the grandam of **Invincible Spirit** - as well as of another couple of outstanding mares: **Somethingroyal, Special**, and **Natalma**."
+      ],
+      "image": "/galleryOverhorse/h15.webp",
+      "url": "https://www.youtube.com/embed/W4Xe5dbLSGE?si=KKdMpFzQcyNt5jKa",
+      "location": {
+        "lot": "demo data ",
+        "venue": "demo data "
+      },
+      "saleYear": "2025",
+      "familyOfChampionsDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "familyOfChampionsRelatives": [
+        {
+          "relation": "Sire",
+          "details": "Savabeel"
+        },
+        {
+          "relation": "Dam",
+          "details": "Let It Rock"
+        }
+      ],
+      "familyOfChampionsNote": "The family has consistently produced top-performing racehorses.",
+      "presenceAndPotentialPhysical": "This filly has excellent conformation, balance, and athleticism, reflecting her elite pedigree.",
+      "presenceAndPotentialTemperament": "Calm, intelligent, and eager to train, showing great potential for racing success.",
+      "investmentOpportunityDescription": "This horse comes from a lineage of champions known for speed and endurance.",
+      "expressionOfInterestQuestion": "Are you ready to be part of this exceptional lineage?"
+    }
+  ]
+}

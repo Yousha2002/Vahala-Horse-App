@@ -1,0 +1,243 @@
+
+"use client";
+import React, { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import SectionHeader from "../sectionHeader";
+import Link from "next/link";
+import ownershipData from "../../../public/ownershipData.json";
+
+const ImageSlider = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isTablet, setIsTablet] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(true);
+
+  const availableHorses = ownershipData.horse_data.filter(
+   (horse) => horse.sold === false || horse.sold === undefined
+  );
+
+  const slides = availableHorses.map((horse) => ({
+    id: horse.id,
+    title: horse.name,
+    age: horse.age,
+    details: horse.breed,
+    result: `${horse.sharePrice} (${horse.sharePercentage})`,
+    image: horse.image,
+    url: `/ownership/${horse.id}`,
+  }));
+
+  useEffect(() => {
+    const checkSize = () => {
+      const w = window.innerWidth;
+      setIsMobile(w <= 640);
+      setIsTablet(w > 640 && w <= 1100);
+      setIsDesktop(w > 1100);
+    };
+
+    checkSize();
+    window.addEventListener("resize", checkSize);
+    return () => window.removeEventListener("resize", checkSize);
+  }, []);
+
+  const goToSlide = (index: number) => {
+    if (isAnimating) return;
+    setIsAnimating(true);
+    setCurrentIndex(index);
+    setTimeout(() => setIsAnimating(false), 500);
+  };
+
+  const goToPrevious = () => {
+    const newIndex = currentIndex === 0 ? slides.length - 1 : currentIndex - 1;
+    goToSlide(newIndex);
+  };
+
+  const goToNext = () => {
+    const newIndex = currentIndex === slides.length - 1 ? 0 : currentIndex + 1;
+    goToSlide(newIndex);
+  };
+
+  const getSlidePosition = (index: number) => {
+    const diff = index - currentIndex;
+    const totalSlides = slides.length;
+
+    if (Math.abs(diff) > totalSlides / 2) {
+      return diff > 0 ? diff - totalSlides : diff + totalSlides;
+    }
+    return diff;
+  };
+
+  const getSlideStyle = (index: number): React.CSSProperties => {
+    const position = getSlidePosition(index);
+    const isActive = position === 0;
+
+    const MAX_VISIBLE = 2;
+
+    if (Math.abs(position) > MAX_VISIBLE) {
+      return {
+        opacity: 0,
+        transform: "scale(0)",
+        pointerEvents: "none",
+        zIndex: 0,
+      };
+    }
+
+    const settings = isMobile
+      ? { x: 10, z: 40, baseScale: 0.95, scaleStep: 0.05 }
+      : isTablet
+      ? { x: 28, z: 55, baseScale: 0.92, scaleStep: 0.06 }
+      : { x: 56, z: 70, baseScale: 0.9, scaleStep: 0.1 };
+
+    const translateX = `${position * settings.x}%`;
+    const translateZ = `${-Math.abs(position) * settings.z}px`;
+    const scale = isActive
+      ? 1
+      : Math.max(
+          0,
+          settings.baseScale - Math.abs(position) * settings.scaleStep
+        );
+
+    return {
+      transform: `translateX(${translateX}) translateZ(${translateZ}) scale(${scale})`,
+      opacity: 1,
+      filter: isActive ? "brightness(1)" : "brightness(0.4)",
+      zIndex: 10 - Math.abs(position),
+      transition: "all 0.5s cubic-bezier(0.4, 0, 0.2, 1)",
+      pointerEvents: isActive ? "auto" : "none",
+    };
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") goToPrevious();
+      if (e.key === "ArrowRight") goToNext();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [currentIndex]);
+
+  return (
+    <div className="relative w-full lg:pb-16 py-8 lg:py-0 lg:px-4 overflow-hidden">
+      <div className="mx-6 lg:mx-12">
+        <SectionHeader
+          title="Thoroughbreds Available for Partnership"
+          subtitle="Discover the pride of Vahala Racing — elite thoroughbreds trained for excellence, speed, and legacy."
+          buttonText="See Ownership opportunities"
+          buttonLink="/ownership"
+          buttonVariant="secondary"
+        />
+        <div className="mx-auto w-full mt-1 lg:mt-4">
+          <p className="mt-0 lg:mt-8 2-full md:w-[78%] text-center mx-auto text-sm lg:text-base font-normal">
+            Discover the next generation of Vahala champions. Our selection
+            process focuses on elite{" "}
+            <span className="text-primary">thoroughbred bloodlines</span> and
+            proven racing potential, offering you the best opportunity for a
+            rewarding investment. Review the limited{" "}
+            <span className="text-primary">investment percentages</span>{" "}
+            currently available in our upcoming horse. Built for success, this
+            section features the horses you can join today.
+          </p>
+        </div>
+        <div className="relative h-[500px] lg:h-[700px] flex items-center justify-center">
+          <div
+            className="relative w-full h-full flex items-center justify-center"
+            style={{ perspective: "2000px" }}
+          >
+            {slides.map((slide, index) => (
+              <div
+                key={slide.id}
+                className="absolute w-[250px] md:w-[396px]"
+                style={getSlideStyle(index)}
+              >
+                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="w-full h-[400px] md:h-[600px] object-fill"
+                  />
+
+                  <div className="absolute inset-0 bg-linear-to-b from-black/50 via-white/10 to-black/50"></div>
+
+                  {index === currentIndex && (
+                    <>
+                      <div className=" mb-3 inline-block absolute top-3 m-5 w-full ">
+                        <div className="flex justify-between items-center w-4/5">
+                          <div className=" text-white text-xs p-0 lg:px-3 py-0 ">
+                            <Link
+                          href={slide.url}
+                              className="border border-primary rounded-full px-3 p-2 lg:px-3 lg:py-2"
+                            >
+                              View Details
+                            </Link>
+                          </div>
+                          <div className="relative -right-8">
+                            <div className="hidden lg:block">
+                              <button
+                                onClick={goToNext}
+                                disabled={isAnimating}
+                                className="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10 bg-primary hover:bg-primary disabled:opacity-50 disabled:cursor-not-allowed rounded-full flex items-center justify-center text-white shadow-lg transition-all duration-300 hover:scale-110"
+                              >
+                                <ChevronRight size={24} />
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                        <h2 className="text-2xl lg:text-3xl md:text-4xl font-semibold mb-2">
+                          {slide.title}
+                        </h2>
+                        <p className="text-sm lg:text-base font-light">
+                          <span>Age: </span>
+                          {slide.age}
+                        </p>
+                        <p className="text-sm lg:text-base font-light">
+                          <span>Sire / Dam: </span>
+                          {slide.details}
+                        </p>
+                        <p className="text-sm lg:text-base">
+                          <span>Career: </span> {slide.result}
+                        </p>
+                      </div>
+                    </>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <button
+            onClick={goToPrevious}
+            disabled={isAnimating}
+            className="absolute left-0 top-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white"
+          >
+            <ChevronLeft />
+          </button>
+
+          <button
+            onClick={goToNext}
+            disabled={isAnimating}
+            className="absolute right-0 top-1/2 -translate-y-1/2 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white"
+          >
+            <ChevronRight />
+          </button>
+        </div>
+
+        <div className="flex justify-center gap-2">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => goToSlide(i)}
+              className={`w-2 h-2 rounded-full ${
+                currentIndex === i ? "bg-primary" : "bg-gray-300"
+              }`}
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ImageSlider;
